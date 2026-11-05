@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 背景：安静深绿 #264E3F -->
+    <path
+        android:fillColor="#264E3F"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- 记录纸背景（略带圆角）：米白色 #F9F9F6 -->
+    <path
+        android:fillColor="#F9F9F6"
+        android:pathData="M32,24 L70,24 C73.31,24 76,26.69 76,30 L76,78 C76,81.31 73.31,84 70,84 L38,84 C34.69,84 32,81.31 32,78 Z" />
+
+    <!-- 记录纸折角效果（右上角折起立体细节） -->
+    <path
+        android:fillColor="#D3E7DC"
+        android:pathData="M66,24 L76,34 L66,34 Z" />
+
+    <!-- 正文横线 1：深绿 #264E3F -->
+    <path
+        android:fillColor="#264E3F"
+        android:pathData="M40,42 L68,42 C68.83,42 69.5,42.67 69.5,43.5 C69.5,44.33 68.83,45 68,45 L40,45 C39.17,45 38.5,44.33 38.5,43.5 C38.5,42.67 39.17,42 40,42 Z" />
+
+    <!-- 正文横线 2：深绿 #264E3F -->
+    <path
+        android:fillColor="#264E3F"
+        android:pathData="M40,52 L68,52 C68.83,52 69.5,52.67 69.5,53.5 C69.5,54.33 68.83,55 68,55 L40,55 C39.17,55 38.5,54.33 38.5,53.5 C38.5,52.67 39.17,52 40,52 Z" />
+
+    <!-- 正文横线 3（紧凑短行）：深绿 #264E3F -->
+    <path
+        android:fillColor="#264E3F"
+        android:pathData="M40,62 L56,62 C56.83,62 57.5,62.67 57.5,63.5 C57.5,64.33 56.83,65 56,65 L40,65 C39.17,65 38.5,64.33 38.5,63.5 C38.5,62.67 39.17,62 40,62 Z" />
+</vector>

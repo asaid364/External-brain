@@ -1,0 +1,59 @@
+# 本机私密资料隔离目录；忽略规则不是访问控制，不应让 AI 默认读取此目录。
+/.private/
+
+# 本地环境变量与常见凭据文件；不要把真实秘密保存在知识资料中。
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# 操作系统生成文件。
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 常见编辑器临时文件。
+~$*
+*.swp
+*.swo
+
+# Dependencies and build outputs.
+node_modules/
+.gradle/
+.dart_tool/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# Machine-specific configuration and application runtime data.
+local.properties
+.venv/
+/runtime-data/
+/exports/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+
+# Never publish personal archives, local agent state, or generated analysis.
+/archive/
+/.omp/
+/.idea/
+**/.idea/
+**/.kotlin/
+/graphify-out/
+*.jks
+*.keystore
+*.apk
+*.aab
+*.hprof
+*.sqlite-shm
+*.sqlite-wal
