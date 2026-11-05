@@ -4,6 +4,19 @@
 
 当前原生版本 **1.3.0**，Android versionCode **4**，数据库 schema **4**、同步协议 **1**。项目仍处于开发与验收阶段，不承诺所有设备、网络和 AI 服务兼容。
 
+## 下载安装（无需自行编译）
+
+当前提供 **1.3.0 开发预览版**，不是稳定发行版。下载请打开 [GitHub Releases](https://github.com/asaid364/External-brain/releases/tag/v1.3.0-preview)，展开 **Assets**，按设备选择：
+
+| 平台 | 下载文件 | 安装与启动 |
+|---|---|---|
+| Android 8.0 及以上 | [app-debug.apk](https://github.com/asaid364/External-brain/releases/download/v1.3.0-preview/app-debug.apk) | 下载到手机，打开 APK，按系统提示允许本次安装来源后安装。此包使用 debug 签名，不是商店发行签名。 |
+| Windows x64 | [LifeRecord-1.3.0-windows-x64.zip](https://github.com/asaid364/External-brain/releases/download/v1.3.0-preview/LifeRecord-1.3.0-windows-x64.zip) | 完整解压，在 `LifeRecord` 文件夹中双击 `LifeRecord.exe`。已包含 Java 运行时，无需另装 JDK；不要单独移动 EXE 或直接在压缩包内运行。 |
+
+**升级注意**：Android 覆盖升级要求同包名与相同签名；若提示签名不匹配，不要卸载或清空数据来强行安装。Windows 更新前退出程序，保留原数据目录 `%LOCALAPPDATA%\LifeRecord\client\`。镜像同步不是独立备份，请先用合成内容试用。不要为安装关闭系统安全防护；无法确认发布来源时停止安装。
+
+GitHub 自动提供的 **Source code (zip/tar.gz)** 是源码，不是应用安装包。预览版的验证范围和未验证限制见下文。
+
 ## 功能
 
 - **原始记录**：新增、补记、修改历史、发生时间与时区；草稿持久保存；最近删除、恢复与不可恢复的彻底删除。
